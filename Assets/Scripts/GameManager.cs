@@ -39,13 +39,13 @@ public class GameManager : MonoBehaviour
     public int CurrentScore
     { get; set;}
 
-    public bool isInitialized
+    public bool IsInitialized
     { get; set; }
 
     private void Init()
     {
         CurrentScore = 0;
-        isInitialized  = false;     
+        IsInitialized  = false;     
     }
 
     public void ToMainMenu()
