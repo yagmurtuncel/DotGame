@@ -47,6 +47,7 @@ public class MainMenuManager : MonoBehaviour
             newBestScoreText.gameObject.SetActive(false);
         }
 
+        highScoreText.text = GameManager.Instance.HighScore.ToString();
         float speed = 1 / animationTime;
         float timeElapsed = 0f;
 
